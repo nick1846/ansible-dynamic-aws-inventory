@@ -1,0 +1,6 @@
+---
+- name: ping them all
+  hosts: _web_server 
+  tasks:
+    - name: pinging
+      ping:
